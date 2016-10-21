@@ -1,0 +1,124 @@
+$fontOpenSansRegular: 'OpenSansRegular', sans-serif
+$fontOpenSanslight: 'OpenSansLight', sans-serif
+$fontOpenSansBold: 'OpenSansBold', sans-serif
+$fontOpenSansExtraBold: 'OpenSansExtraBold', sans-serif
+
+$mainOrangeColor: #f68235
+$blackColor: #000000
+$whiteTextColor: #ffffff
+$grayBorder: #606060
+$graySearchMenu: #f4f4f4
+$grayButton: #e5e5e5
+body
+	margin: 0
+	padding: 0
+	width: 100%
+	color: $whiteTextColor
+	font-family: $fontOpenSansRegular
+	font-size: 14px
+	font-weight: 600
+input,
+textarea
+	outline: none
+	border: 1px solid $grayBorder
+	font-size: 14px
+	font-weight: 500
+button
+	outline: none
+	border: none
+	display: flex
+	align-items: center
+	justify-content: center
+	cursor: pointer
+	background-color: transparent
+ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+a
+	text-decoration: none
+	font-family: $fontOpenSanslight
+	font-size: 14px
+	color: $whiteTextColor
+h1
+	font-family: $fontOpenSansBold
+	font-size: 48px
+	color: $blackColor
+
+.container-fluid
+	padding: 0
+
+
+.mContent
+	margin: 10px 0 10px 0
+.mContent-0
+	margin: 5px 5px 5px 0px
+.mContent-1
+	margin: 10px 0px 10px 10px
+.mt-20
+	margin-top: 20px
+.mt-50
+	margin-top: 50px
+.mt-70
+	margin-top: 70px
+.mt-100
+	margin-top: 100px
+.mb-100
+	margin-bottom: 100px
+
+.borderLine
+		width: 100%
+		height: 1px
+		background-color: $grayBorder
+		position: absolute
+		z-index: 3
+
+.contentTimerContainer
+	position: absolute
+	.contentTimer
+		position: absolute
+		top: 0
+		width: 335px
+		height: 86px
+		background-color: $blackColor
+		opacity: 0.5
+		z-index: 5
+	.contentTimerIcon
+		position: absolute
+		width: 335px
+		top: 0
+		left: 10%	
+		z-index: 6
+		img
+			float: left
+			margin: 23px 28px
+		.contentTimerExtraBold
+			margin: 0
+			position: absolute
+			top: 18px
+			left: 90px	
+			z-index: 6
+			font-size: 14px
+			font-family: $fontOpenSansExtraBold
+			color: $whiteTextColor
+		.contentTimerExtraBoldDate
+			margin: 0
+			position: absolute
+			top: 36px
+			left: 90px	
+			z-index: 6
+			font-size: 30px
+			font-family: $fontOpenSansExtraBold
+			color: $whiteTextColor
+
+.contentLableContainer
+	position: absolute
+	width: 335px
+	height: 62px
+	.contentLable-1
+		line-height: 24px
+		margin: 16px 0 0 70px
+		font-size: 24px
+	.contentLable-2
+		font-size: 14px
+		margin: 0 0 0 13px
